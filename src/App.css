@@ -12,23 +12,34 @@ ul{
   background-color: rgb(10, 16, 66);
   border-bottom: 1px solid gray;
   box-shadow: 1px 1px rgb(128, 128, 128);
-  justify-content:space-evenly;
 }
-.usuario{
-  display: flex;
-  height: 30px;
-  width: 30px;
-  border: 2px solid yellow;
+.Logo{
+
+  height: 60px;
+
 }
 
-.button{
+.menu{
+  width: 300px;
+  margin-left: 80px;
   display: flex;
-  background-color: rgb(10, 16, 66);
+  justify-content: space-evenly;
+}
+
+.menu li{
+  padding: 2px;
+  width: 40px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.menu li button{
+  background-color:transparent;
   border: none;
   color: white;
-  font: bold;
+  display: flex;
+  justify-content: center;
 }
 
-.Logo{
-  height: 60px;
-}
