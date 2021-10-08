@@ -63,14 +63,6 @@ function App() {
             </label>
             <ul className="bloqueProductos">
             </ul>
-            <label>
-              Vendedor
-              <input type="search"/>
-            </label>
-            <label>
-              Valor total
-              <input type="number"/>
-            </label>
             </form>
           </div>
         

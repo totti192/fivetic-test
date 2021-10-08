@@ -66,6 +66,11 @@ ul{
 .panelI{
   border: 2px solid black;
   padding: 10px;
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: auto
+  
+  
 }
 .panelD{
   border: 2px solid black;
