@@ -23,11 +23,11 @@ function App() {
 
       <body>
         <div className="paneles">
-          <div className="panelI">
+          <div className="subPanel">
             <form>
             <label>
               Factura N°
-              <input placeholder="ID Venta" className="idFactuta"/>
+              <input placeholder="ID Venta" className="idFactura"/>
             </label>
             <ul className="bloqueProductos">
               <li># item</li>
@@ -44,22 +44,27 @@ function App() {
               <input type="search" zise="12" maxLength="40"/>
               <input type="search" zise="12" maxLength="40"/>
               <li><button><img src="./media/Icons/bxs-check-square.svg" alt="Confirmar"/></button><button><img src="./media/Icons/bx-trash.svg" alt="Eliminar"/></button></li>
-            </ul>
-            <label>
-              Vendedor
-              <input type="search"/>
-            </label>
-            <label>
+           </ul>
+            <form className="vendedor">
+              Vendedor:
+              <select>
+                <option disable selected="">selecione un vendedor</option>
+                <option></option>
+              </select>
+            </form>
+
+            <label className="vendedor">
               Valor total
               <input type="number"/>
             </label>
             </form>
           </div>
-          <div className="panelD">
+          
+          <div className="subPanel">
             <form>
             <label>
               Factura N°
-              <input placeholder="ID Venta"/>
+              <input placeholder="ID Venta" className="idFactura"/>
             </label>
             <ul className="bloqueProductos">
             </ul>
