@@ -64,24 +64,31 @@ function App() {
           <div className="subPanel">
             <form>
             <label className="facturaFecha">
-              <h3>Factura N°</h3>
+              <h3>Factura N° </h3>
               <input placeholder="ID Venta" className=""/>
               <h3>Fecha</h3>
-              <input type="date"
-              placeholder="" className=""/>
+              <input type="date"/>
             </label>
             </form>
             <form>
             <label className="CC-nombre">
-              <h3>Cliente</h3>
-              <input placeholder="CC o NIT" className=""/>
-              <input type="text"
-              placeholder="Nombre/apellidos" className=""/>
+              <h3 className="titulos">Cliente</h3>
+              <input type="number" placeholder="CC o NIT" className=""/>
+              <input type="text" placeholder="Nombre/apellidos" className="nombre-apellido"/>
             </label>
-            <label className="CC-nombre">
-              <h3>Producto</h3>
-              <input placeholder="ID Producto" className=""/>
-              </label>
+            <label>
+              <h3 className="titulos">Producto</h3>
+              <input type="number" placeholder="ID Producto"className="idProducto"/>
+              <input  placeholder="Descripción producto" className="dProducto"/>
+            </label>
+            <label>
+              <input type="number" placeholder="Precio producto unidad" className="precio"/>
+              <input type="number" placeholder="Cantidad" className="cantidad"/>
+            </label>
+            <button className="agregarProducto">
+              <img src="./media/Icons/bx-cart.svg" alt="Agregar" />Agregar Producto
+            </button>
+            
             <ul className="bloqueProductos">
             </ul>
             </form>
