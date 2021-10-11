@@ -18,11 +18,14 @@ function App() {
      
      
       <main>
-      <h1 className="ventas">Ventas</h1>
+      <h1 className="titulo">¿Ya tienes una cuenta?</h1>
       </main>
 
       <body>
-        
+         <h5 className="subtitulo"> Inicia sesión para entrar en la página </h5>
+        <div className="botonIniciar"> 
+         <button className="iniciarSesion">Iniciar sesión</button>
+        </div>
       </body>
     </div>
   );
