@@ -59,17 +59,34 @@ function App() {
             </label>
             </form>
           </div>
-          
+
+
           <div className="subPanel">
             <form>
-            <label>
-              Factura N°
-              <input placeholder="ID Venta" className="idFactura"/>
+            <label className="facturaFecha">
+              <h3>Factura N°</h3>
+              <input placeholder="ID Venta" className=""/>
+              <h3>Fecha</h3>
+              <input type="date"
+              placeholder="" className=""/>
             </label>
+            </form>
+            <form>
+            <label className="CC-nombre">
+              <h3>Cliente</h3>
+              <input placeholder="CC o NIT" className=""/>
+              <input type="text"
+              placeholder="Nombre/apellidos" className=""/>
+            </label>
+            <label className="CC-nombre">
+              <h3>Producto</h3>
+              <input placeholder="ID Producto" className=""/>
+              </label>
             <ul className="bloqueProductos">
             </ul>
             </form>
           </div>
+          
         
         </div>
       </body>

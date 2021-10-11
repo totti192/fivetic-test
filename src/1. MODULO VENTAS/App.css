@@ -59,6 +59,8 @@ ul{
 
 /* Estilos del body */
 
+/*estilos panel izquierdo*/
+
 .paneles{
   display: flex;
   margin: 20px;
@@ -110,5 +112,25 @@ ul{
 .vendedor input{
   margin: 0px 5px 40px;
   padding: 2px 0px 10px;
+  
+}
+/* estilos panel derecho */
+
+.facturaFecha{
+  display: flex;
+  justify-content: space-between;
+}
+.facturaFecha input{
+  margin-top: 10px;
+  height: 30px;
+  
+}
+.CC-nombre{
+
+
+}
+.CC-nombre input{
+  margin-top: 10px;
+  height: 30px;
   
 }
