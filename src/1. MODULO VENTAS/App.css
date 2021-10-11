@@ -87,17 +87,20 @@ ul{
   grid-template-columns: 88px 88px 88px 88px 88px 88px 88px;
 
 }
-
+.iconoBorrar{
+  height: 28px;
+  padding: 10px 10px 10px 10px;
+}
 .bloqueProductos li {
   display: flex;
   border: 1px solid black;
   font-size: 13px;
-  justify-content:center;
+  justify-content: center;
   background-color: white;
 }
 .bloqueProductos li button{
   background-color: transparent;
-  border: none;
+  border: none
 }
 .bloqueProductos li button:hover{
   cursor: pointer;
@@ -112,8 +115,11 @@ ul{
 .vendedor input{
   margin: 0px 5px 40px;
   padding: 2px 0px 10px;
+  height: 20px;
   
 }
+
+
 /* estilos panel derecho */
 
 .facturaFecha{
@@ -172,4 +178,8 @@ margin-bottom: 0px;
 }
 .agregarProducto img{
   height: 40px;
+}
+.agregarProducto:hover{
+  cursor: pointer;
+  transform: scale(1.05);
 }

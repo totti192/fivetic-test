@@ -36,7 +36,7 @@ function App() {
               <li>Cantidad</li>
               <li>Precio producto unidad</li>
               <li>Total</li>
-              <li><img src="./media/Icons/bxs-check-square.svg" alt="Confirmar"/><img src="./media/Icons/bx-trash.svg" alt="Eliminar"/></li>
+              <li className="iconoBorrar"><img src="./media/Icons/bxs-check-square.svg" alt="Confirmar"/><img src="./media/Icons/bx-trash.svg" alt="Eliminar"/></li>
               <input type="search" zise="12" maxLength="40"/>
               <input type="search" zise="12" maxLength="40"/>
               <input type="search" zise="12" maxLength="40"/>
@@ -48,8 +48,7 @@ function App() {
             <form className="vendedor">
               Vendedor:
               <select>
-                <option disable selected="">selecione un vendedor</option>
-                <option></option>
+                <option className="seleccionarVendedor" disable selected="">selecione un vendedor</option>
               </select>
             </form>
 
