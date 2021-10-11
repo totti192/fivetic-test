@@ -1,0 +1,60 @@
+body{
+  margin: 0px;
+  background-color:#d9d9e9;
+}
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar {
+  display: flex;
+  padding: 25px;
+  background-color: rgb(10, 16, 66);
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 1px rgb(128, 128, 128);
+}
+.Logo{
+  height: 100px;
+
+}
+.menu{
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 45px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu li{
+  padding: 2px;
+  width: 60px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+
+}
+.menu li button{
+  background-color:transparent;
+  font-size: 12px;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.ventas{
+  color:rgb(29, 29, 29);
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+}
+
+
+/* Estilos del body */
