@@ -21,13 +21,38 @@ function App() {
       <h1 className="titulo">Usuario</h1>
 
       <form>
+        <div className="fecha">
         <h3>Fecha</h3>
         <input type="date"></input>
-        
-
-
-
+        </div>
+        <h3 className="usuario">Usuario</h3>
+        <div className="cedula">
+          <input type="number" placeholder="C.C o Nit"></input>
+          <input type="text" placeholder="Nombre/apellidos"></input>
+        </div>
+        <div className="cedula">
+          <select>
+          <option disabled selected="Rol">Rol</option>
+            <option>Administrador</option>
+            <option>Vendedor</option>
+            <option>Cliente</option>
+          </select>
+          <select>
+            <option disabled selected="Estado usuario">Estado usuario</option>
+            <option>Pendiente</option>
+            <option>Autorizado</option>
+            <option>No Autorizado</option>
+          </select>
+        </div>
       </form>
+        <div className="botonRol"> 
+         <button className="rol">Actualizar Rol</button>
+        </div>
+
+
+
+
+      
        </body>
     </div>
   );
