@@ -92,6 +92,10 @@ ul{
   padding: 8px;
   width: 200px;
 }
+.cedula select:hover{
+  cursor: pointer;
+}
+
 .rol{
   font-size: 20px;
   color: white;
@@ -107,7 +111,7 @@ ul{
   justify-content: center;
   
 }
-.registrarse:hover{
+.rol:hover{
 cursor: pointer;
 transform: scale(1.009);
 }
