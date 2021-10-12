@@ -60,15 +60,8 @@ ul{
 
 /* Estilos del body */
 
-.subtitulo{
-  color: rgb(139, 137, 134);
-  display: flex;
-  justify-content: center;
-  font-size: 20px;
-  margin-top: 100px;
-}
 
-.iniciarSesion{
+.registrarse{
   font-size: 30px;
   color: white;
   padding: 10px 200px;
@@ -77,12 +70,35 @@ ul{
   box-shadow: 1px 1px rgb(128, 128, 128);
   
 }
-.botonIniciar{
+.botonRegistrarse{
   display: flex;
   justify-content: center;
   
 }
-.iniciarSesion:hover{
+.registrarse:hover{
 cursor: pointer;
-transform: scale(1.01);
+transform: scale(1.05);
+}
+
+.nombre{
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 20px;
+  border: 2px solid black;
+  width: 555px;
+  background: white;
+  
+}
+
+.letraNombre{
+  padding: 10px;
+  background: transparent;
+  width: 505px;
+  border: 0px solid black;
+
+}
+
+.bloque{
+  display: flex;
+  justify-content: center;
 }
